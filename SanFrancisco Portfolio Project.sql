@@ -98,8 +98,8 @@ ORDER BY 'Average Base Pay' DESC;
 ALTER TABLE Salaries
 DROP COLUMN Notes;
 
--- 17	Update the base pay of all employees with 
--- the job title containing "Manager" by increasing it by 10%.
+--Update the base pay of all employees with 
+--the job title containing "Manager" by increasing it by 10%.
 
 UPDATE Salaries
 SET BasePay = BasePay * 1.1
